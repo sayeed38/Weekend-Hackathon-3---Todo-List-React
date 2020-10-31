@@ -13,6 +13,9 @@ function App() {
   };
 
   const handleAdd = () => {
+    if (taskName === "") {
+      return;
+    }
     let tasks = [...taskList];
     let obj = {
       name: taskName,
