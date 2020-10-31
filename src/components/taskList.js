@@ -20,7 +20,6 @@ export default function TaskList({
           editTask={editTask}
         />
       ))}
-      ;
     </>
   );
 }
